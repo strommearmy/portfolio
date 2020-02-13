@@ -1,0 +1,146 @@
+/*
+Theme Name: Responsive Businessr
+Description: Responsive Businessr is a clean, responsive, SEO friendly and customizable WordPress theme for business websites. it is perfect theme to display business informations such as logo, text, images gallery, portfolio, audio, video, maps, social icons, forms, tables, lists, testimonials, call to action, menu, slider etc. Features: Custom Logo, Header Image, Front Page Slider, One Click Demo Import, Social Profile, Blog Options, WooCommerce Options, Page layouts, Footer Widgets Layout, Full Width Page, Typography Options, Custom Menu, Sidebar Layout, Footer Copyright Section, Translation Ready, Elementor Page Builder ready, Contact Form 7 Ready, WooCommerce Ready and support all popular plugins like WordPress SEO, Akismet, Caching.
+Author: parkerarianna3
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, left-sidebar, right-sidebar, grid-layout, flexible-header, custom-background, custom-header, custom-menu, custom-logo, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, blog, portfolio
+Text Domain: responsive-businessr
+Template: di-blog
+*/
+
+
+.sidebar-widgets .widget_sidebar_main .right-widget-title {
+	padding: 12px 9px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+  .navbarprimary ul.navbar-nav .dropdown-menu > li:hover a.nav-link {
+    padding: 12px 20px 10px 22px;
+  }
+}
+
+.navbarprimary .navbar-toggler {
+	border-color: #ffffff;
+}
+
+.navbarprimary .navbar-toggler .icon-bar {
+	background-color: #ffffff;
+}
+
+.navbarprimary {
+  background-color: forestgreen;
+}
+
+.wpcf7-form .wpcf7-form-control.wpcf7-text {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.wpcf7-form .wpcf7-form-control.wpcf7-text:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.wpcf7-form .wpcf7-form-control.wpcf7-number {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.wpcf7-form .wpcf7-form-control.wpcf7-number:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.wpcf7-form .wpcf7-form-control.wpcf7-date {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.wpcf7-form .wpcf7-form-control.wpcf7-date:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.wpcf7-form .wpcf7-form-control.wpcf7-textarea {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.wpcf7-form .wpcf7-form-control.wpcf7-textarea:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
