@@ -1,0 +1,25 @@
+/*
+Template:       zugan
+Theme Name:     Zugan Child Theme
+Theme URI:      http://bystroem.dk
+Author:         Martin Færch Strømme
+Author URI:     http://bystroem.dk
+Description:    Zugan is a clean and Modern WordPress Theme. It is best suited for corporate website like Financial Advisor, Accountant, Consulting Firms, insurance, loan, tax help, Investment firm etc
+Version:        1.0
+Text Domain:    zugan
+Tags: left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, translation-ready
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.wpcf7-form .form-group .form-control {
+    background: #ffffff;
+    color: #111111;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px 20px;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(111, 111, 111, 0.50);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(111, 111, 111, 0.50);
+    box-shadow: 0px 1px 2px 0px rgba(111, 111, 111, 0.50);
+}
